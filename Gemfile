@@ -7,6 +7,7 @@ gem 'rails', '~> 5.2.0'
 gem 'pg', '>= 0.18', '< 2.0'
 gem 'puma', '~> 3.11'
 gem 'sass-rails', '~> 5.0'
+gem 'jquery-rails'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
@@ -15,6 +16,7 @@ end
 group :development do
   gem 'annotate'
   gem 'listen', '>= 3.0.5', '< 3.2'
+  gem 'letter_opener'
   gem 'pry-rails'
   gem 'web-console', '>= 3.3.0'
 end
